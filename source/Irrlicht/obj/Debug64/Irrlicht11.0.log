@@ -1,0 +1,412 @@
+﻿  CCgMaterialRenderer.cpp
+  CD3D9CgMaterialRenderer.cpp
+  CDefaultSceneNodeAnimatorFactory.cpp
+  CDefaultSceneNodeFactory.cpp
+  CGeometryCreator.cpp
+  CMeshCache.cpp
+  CMeshManipulator.cpp
+  COpenGLCgMaterialRenderer.cpp
+  CSceneManager.cpp
+  C3DSMeshFileLoader.cpp
+  CSMFMeshFileLoader.cpp
+  CAnimatedMeshHalfLife.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(31,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(32,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(34,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(35,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(37,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(38,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(83,17): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(84,16): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(85,34): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(86,27): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(101,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(102,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+  CAnimatedMeshMD2.cpp
+  CAnimatedMeshMD3.cpp
+  CB3DMeshFileLoader.cpp
+  CBSPMeshFileLoader.cpp
+  CColladaFileLoader.cpp
+  CCSMLoader.cpp
+  CDMFLoader.cpp
+  CIrrMeshFileLoader.cpp
+  Generating Code...
+  Compiling...
+  CLMTSMeshFileLoader.cpp
+  CLWOMeshFileLoader.cpp
+  CMD2MeshFileLoader.cpp
+  CMD3MeshFileLoader.cpp
+  CMS3DMeshFileLoader.cpp
+  CMY3DMeshFileLoader.cpp
+  COBJMeshFileLoader.cpp
+  COCTLoader.cpp
+  COgreMeshFileLoader.cpp
+  CPLYMeshFileLoader.cpp
+  CQ3LevelMesh.cpp
+  CSkinnedMesh.cpp
+  CSTLMeshFileLoader.cpp
+  CXMeshFileLoader.cpp
+  CAnimatedMeshSceneNode.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(111,33): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(116,31): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
+  CBillboardSceneNode.cpp
+  CBoneSceneNode.cpp
+  CCameraSceneNode.cpp
+  CCubeSceneNode.cpp
+  CDummyTransformationSceneNode.cpp
+  Generating Code...
+  Compiling...
+  CEmptySceneNode.cpp
+  CLightSceneNode.cpp
+  CMeshSceneNode.cpp
+  COctreeSceneNode.cpp
+  CQuake3ShaderSceneNode.cpp
+  CShadowVolumeSceneNode.cpp
+  CSkyBoxSceneNode.cpp
+  CSkyDomeSceneNode.cpp
+  CSphereSceneNode.cpp
+  CTerrainSceneNode.cpp
+  CTextSceneNode.cpp
+  CVolumeLightSceneNode.cpp
+  CWaterSurfaceSceneNode.cpp
+  CParticleAnimatedMeshSceneNodeEmitter.cpp
+  CParticleAttractionAffector.cpp
+  CParticleBoxEmitter.cpp
+  CParticleCylinderEmitter.cpp
+  CParticleFadeOutAffector.cpp
+  CParticleGravityAffector.cpp
+  CParticleMeshEmitter.cpp
+  Generating Code...
+  Compiling...
+  CParticlePointEmitter.cpp
+  CParticleRingEmitter.cpp
+  CParticleRotationAffector.cpp
+  CParticleScaleAffector.cpp
+  CParticleSphereEmitter.cpp
+  CParticleSystemSceneNode.cpp
+  CMetaTriangleSelector.cpp
+  COctreeTriangleSelector.cpp
+  CSceneCollisionManager.cpp
+  CTerrainTriangleSelector.cpp
+  CTriangleBBSelector.cpp
+  CTriangleSelector.cpp
+  CSceneLoaderIrr.cpp
+  CSceneNodeAnimatorCameraFPS.cpp
+  CSceneNodeAnimatorCameraMaya.cpp
+  CSceneNodeAnimatorCollisionResponse.cpp
+  CSceneNodeAnimatorDelete.cpp
+  CSceneNodeAnimatorFlyCircle.cpp
+  CSceneNodeAnimatorFlyStraight.cpp
+  CSceneNodeAnimatorFollowSpline.cpp
+  Generating Code...
+  Compiling...
+  CSceneNodeAnimatorRotation.cpp
+  CSceneNodeAnimatorTexture.cpp
+  CColladaMeshWriter.cpp
+  CIrrMeshWriter.cpp
+  COBJMeshWriter.cpp
+  CPLYMeshWriter.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CPLYMeshWriter.cpp(131,31): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CPLYMeshWriter.cpp(166,31): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+  CSTLMeshWriter.cpp
+  CVideoModeList.cpp
+  CSoftwareDriver.cpp
+  CSoftwareTexture.cpp
+  CTRFlat.cpp
+  CTRFlatWire.cpp
+  CTRGouraud.cpp
+  CTRGouraudWire.cpp
+  CTRTextureFlat.cpp
+  CTRTextureFlatWire.cpp
+  CTRTextureGouraud.cpp
+  CTRTextureGouraudAdd.cpp
+  CTRTextureGouraudNoZ.cpp
+  CTRTextureGouraudWire.cpp
+  Generating Code...
+  Compiling...
+  CZBuffer.cpp
+  COpenGLDriver.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\COpenGLDriver.cpp(148,44): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+  COpenGLExtensionHandler.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\COpenGLExtensionHandler.cpp(250,60): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  COpenGLNormalMapRenderer.cpp
+  COpenGLParallaxMapRenderer.cpp
+  COpenGLShaderMaterialRenderer.cpp
+  COpenGLSLMaterialRenderer.cpp
+  COpenGLTexture.cpp
+  CD3D8Driver.cpp
+  CD3D8NormalMapRenderer.cpp
+  CD3D8ParallaxMapRenderer.cpp
+  CD3D8ShaderMaterialRenderer.cpp
+  CD3D8Texture.cpp
+  CColorConverter.cpp
+  CFPSCounter.cpp
+  CImage.cpp
+  CNullDriver.cpp
+  CImageWriterBMP.cpp
+  CImageWriterJPG.cpp
+  CImageWriterPCX.cpp
+  Generating Code...
+  Compiling...
+  CImageWriterPNG.cpp
+  CImageWriterPPM.cpp
+  CImageWriterPSD.cpp
+  CImageWriterTGA.cpp
+  CImageLoaderBMP.cpp
+  CImageLoaderDDS.cpp
+  CImageLoaderJPG.cpp
+  CImageLoaderPCX.cpp
+  CImageLoaderPNG.cpp
+  CImageLoaderPPM.cpp
+  CImageLoaderPSD.cpp
+  CImageLoaderRGB.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CImageLoaderRGB.cpp(561,65): warning C4244: '=': conversion from '__int64' to 'irr::s32', possible loss of data
+  CImageLoaderTGA.cpp
+  CImageLoaderWAL.cpp
+  CD3D9Driver.cpp
+  CD3D9HLSLMaterialRenderer.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9ShaderMaterialRenderer.h(15,10): error C1083: Cannot open include file: 'd3dx9shader.h': No such file or directory
+  (compiling source file 'CD3D9Driver.cpp')
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9ShaderMaterialRenderer.h(15,10): error C1083: Cannot open include file: 'd3dx9shader.h': No such file or directory
+  (compiling source file 'CD3D9HLSLMaterialRenderer.cpp')
+  
+  CD3D9NormalMapRenderer.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9ShaderMaterialRenderer.h(15,10): error C1083: Cannot open include file: 'd3dx9shader.h': No such file or directory
+  (compiling source file 'CD3D9NormalMapRenderer.cpp')
+  
+  CD3D9ParallaxMapRenderer.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9ShaderMaterialRenderer.h(15,10): error C1083: Cannot open include file: 'd3dx9shader.h': No such file or directory
+  (compiling source file 'CD3D9ParallaxMapRenderer.cpp')
+  
+  CD3D9ShaderMaterialRenderer.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9ShaderMaterialRenderer.h(15,10): error C1083: Cannot open include file: 'd3dx9shader.h': No such file or directory
+  (compiling source file 'CD3D9ShaderMaterialRenderer.cpp')
+  
+  CD3D9Texture.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9Texture.cpp(13,10): error C1083: Cannot open include file: 'd3dx9tex.h': No such file or directory
+  Generating Code...
+  Compiling...
+  CBurningShader_Raster_Reference.cpp
+  CDepthBuffer.cpp
+  CSoftwareDriver2.cpp
+  CSoftwareTexture2.cpp
+  CTRGouraud2.cpp
+  CTRGouraudAlpha2.cpp
+  CTRGouraudAlphaNoZ2.cpp
+  CTRNormalMap.cpp
+  CTRStencilShadow.cpp
+  CTRTextureBlend.cpp
+  CTRTextureDetailMap2.cpp
+  CTRTextureGouraud2.cpp
+  CTRTextureGouraudAdd2.cpp
+  CTRTextureGouraudAddNoZ2.cpp
+  CTRTextureGouraudAlpha.cpp
+  CTRTextureGouraudAlphaNoZ.cpp
+  CTRTextureGouraudNoZ2.cpp
+  CTRTextureGouraudVertexAlpha2.cpp
+  CTRTextureLightMap2_Add.cpp
+  CTRTextureLightMap2_M1.cpp
+  Generating Code...
+  Compiling...
+  CTRTextureLightMap2_M2.cpp
+  CTRTextureLightMap2_M4.cpp
+  CTRTextureLightMapGouraud2_M4.cpp
+  CTRTextureWire2.cpp
+  IBurningShader.cpp
+  CLogger.cpp
+  COSOperator.cpp
+  Irrlicht.cpp
+  os.cpp
+  aescrypt.cpp
+  aeskey.cpp
+  aestab.cpp
+  fileenc.cpp
+  hmac.cpp
+  prng.cpp
+  pwd2key.cpp
+  sha1.cpp
+  sha2.cpp
+  CIrrDeviceConsole.cpp
+  CIrrDeviceFB.cpp
+  Generating Code...
+  Compiling...
+  CIrrDeviceLinux.cpp
+  CIrrDeviceSDL.cpp
+  CIrrDeviceStub.cpp
+  CIrrDeviceWin32.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CIrrDeviceWin32.cpp(805,37): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CIrrDeviceWin32.cpp(1492,21): warning C4996: 'GetVersionExA': was declared deprecated
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CIrrDeviceWin32.cpp(1496,9): warning C4996: 'GetVersionExA': was declared deprecated
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CIrrDeviceWin32.cpp(1695,32): warning C4244: 'argument': conversion from 'LONG_PTR' to 'DWORD', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CIrrDeviceWin32.cpp(1870,8): warning C4996: 'GetVersionExA': was declared deprecated
+  CIrrDeviceWinCE.cpp
+  CAttributes.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAttributeImpl.h(2039,11): warning C4312: 'type cast': conversion from 'irr::u32' to 'void *' of greater size
+  (compiling source file 'CAttributes.cpp')
+  
+  CFileList.cpp
+  CFileSystem.cpp
+  CLimitReadFile.cpp
+  CMemoryFile.cpp
+  CMountPointReader.cpp
+  CNPKReader.cpp
+  CPakReader.cpp
+  CReadFile.cpp
+  CTarReader.cpp
+  CWADReader.cpp
+  CWriteFile.cpp
+  CXMLReader.cpp
+  CXMLWriter.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(57,26): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(85,32): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(124,32): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(150,32): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(184,32): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CXMLWriter.cpp(212,24): warning C4267: 'argument': conversion from 'size_t' to 'irr::u32', possible loss of data
+  CZipReader.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(623,25):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(636,26):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(677,25):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(697,25):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(710,26):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(748,25):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(769,25):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(782,26):
+  this warning is based on non-standard semantics used by Visual C++
+  
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(803,23): warning C4267: '=': conversion from 'size_t' to 'irr::u32', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23): warning C4477: 'swprintf_s' : format string '%s' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'const T *'
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23): warning C4477:         with
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23): warning C4477:         [
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23): warning C4477:             T=irr::c8
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23): warning C4477:         ]
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23):
+  consider using '%hs' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23):
+  consider using '%Ts' in the format string
+  C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CZipReader.cpp(829,23):
+  this warning is based on non-standard semantics used by Visual C++
+  
+  Generating Code...
+  Compiling...
+  irrXML.cpp
+  CDefaultGUIElementFactory.cpp
+  CGUIButton.cpp
+  CGUICheckbox.cpp
+  CGUIColorSelectDialog.cpp
+  CGUIComboBox.cpp
+  CGUIContextMenu.cpp
+  CGUIEditBox.cpp
+  CGUIEnvironment.cpp
+  CGUIFileOpenDialog.cpp
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CGUIFileOpenDialog.cpp(390,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CGUIFileOpenDialog.cpp(406,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CGUIFont.cpp
+  CGUIImage.cpp
+  CGUIImageList.cpp
+  CGUIInOutFader.cpp
+  CGUIListBox.cpp
+  CGUIMenu.cpp
+  CGUIMeshViewer.cpp
+  CGUIMessageBox.cpp
+  CGUIModalScreen.cpp
+  CGUIScrollBar.cpp
+  Generating Code...
+  Compiling...
+  CGUISkin.cpp
+  CGUISpinBox.cpp
+  CGUISpriteBank.cpp
+  CGUIStaticText.cpp
+  CGUITabControl.cpp
+  CGUITable.cpp
+  CGUIToolBar.cpp
+  CGUITreeView.cpp
+  CGUIWindow.cpp
+  Generating Code...
