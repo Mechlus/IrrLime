@@ -45,6 +45,9 @@ namespace scene
 		//! sets the color of the text
 		virtual void setTextColor(video::SColor color);
 
+		void centerHoriz(bool enable);
+		void centerVert(bool enable);
+
 		//! Returns type of the scene node
 		virtual ESCENE_NODE_TYPE getType() const { return ESNT_TEXT; }
 

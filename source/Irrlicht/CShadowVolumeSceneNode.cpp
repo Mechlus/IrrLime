@@ -286,6 +286,7 @@ void CShadowVolumeSceneNode::updateShadowVolumes()
 		if (dl.CastShadows &&
 			fabs((lpos - parentpos).getLengthSQ()) <= (dl.Radius*dl.Radius*4.0f))
 		{
+			//if (dl.Type==video::ELT_DIRECTIONAL) lpos *= -dl.Radius; // LIME, added from https://irrlicht.sourceforge.io/forum//viewtopic.php?p=77902#77902
 			mat.transformVect(lpos);
 			createShadowVolume(lpos);
 		}

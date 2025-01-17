@@ -1526,16 +1526,16 @@ bool CXMeshFileLoader::parseDataObjectMaterial(video::SMaterial& material)
 
 			// original name
 			if (FileSystem->existFile(TextureFileName))
-				material.setTexture(textureLayer, SceneManager->getVideoDriver()->getTexture(TextureFileName));
+				material.setTexture(textureLayer, nullptr);
 			// mesh path
 			else
 			{
 				TextureFileName=FilePath + FileSystem->getFileBasename(TextureFileName);
 				if (FileSystem->existFile(TextureFileName))
-					material.setTexture(textureLayer, SceneManager->getVideoDriver()->getTexture(TextureFileName));
+					material.setTexture(textureLayer, nullptr);
 				// working directory
 				else
-					material.setTexture(textureLayer, SceneManager->getVideoDriver()->getTexture(FileSystem->getFileBasename(TextureFileName)));
+					material.setTexture(textureLayer, nullptr);
 			}
 			++textureLayer;
 			if (textureLayer==2)
@@ -1551,16 +1551,16 @@ bool CXMeshFileLoader::parseDataObjectMaterial(video::SMaterial& material)
 
 			// original name
 			if (FileSystem->existFile(TextureFileName))
-				material.setTexture(1, SceneManager->getVideoDriver()->getTexture(TextureFileName));
+				material.setTexture(1, nullptr);
 			// mesh path
 			else
 			{
 				TextureFileName=FilePath + FileSystem->getFileBasename(TextureFileName);
 				if (FileSystem->existFile(TextureFileName))
-					material.setTexture(1, SceneManager->getVideoDriver()->getTexture(TextureFileName));
+					material.setTexture(1, nullptr);
 				// working directory
 				else
-					material.setTexture(1, SceneManager->getVideoDriver()->getTexture(FileSystem->getFileBasename(TextureFileName)));
+					material.setTexture(1, nullptr);
 			}
 			if (textureLayer==1)
 				++textureLayer;
@@ -1572,6 +1572,8 @@ bool CXMeshFileLoader::parseDataObjectMaterial(video::SMaterial& material)
 				return false;
 		}
 	}
+
+	// LIME - nullptr replaced SceneManager->getVideoDriver()->getTexture(FileSystem->getFileBasename(TextureFileName))
 
 	return true;
 }
