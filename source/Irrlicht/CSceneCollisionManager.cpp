@@ -10,6 +10,7 @@
 
 #include "os.h"
 #include "irrMath.h"
+#include <unordered_map>
 
 namespace irr
 {

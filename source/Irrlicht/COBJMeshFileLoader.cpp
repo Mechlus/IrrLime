@@ -602,7 +602,7 @@ void COBJMeshFileLoader::readMTL(const c8* fileName, const io::path& relPath)
 			case 'm': // texture maps
 			if (currMaterial)
 			{
-				//bufPtr=readTextures(bufPtr, bufEnd, currMaterial, relPath);
+				// LIME - Commented out bufPtr=readTextures(bufPtr, bufEnd, currMaterial, relPath);
 			}
 			break;
 			case 'd': // d - transparency

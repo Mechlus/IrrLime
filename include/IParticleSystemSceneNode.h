@@ -502,6 +502,8 @@ public:
 	virtual IParticleRotationAffector* createRotationAffector(
 		const core::vector3df& speed = core::vector3df(5.0f,5.0f,5.0f),
 		const core::vector3df& pivotPoint = core::vector3df(0.0f,0.0f,0.0f) ) = 0;
+
+	bool active = true;
 };
 
 } // end namespace scene

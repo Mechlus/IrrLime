@@ -405,9 +405,6 @@
     <ClInclude Include="..\..\include\IQ3Shader.h">
       <Filter>include\scene</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\ISceneCollisionManager.h">
-      <Filter>include\scene</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\include\ISceneManager.h">
       <Filter>include\scene</Filter>
     </ClInclude>
@@ -2240,6 +2237,7 @@
     <ClCompile Include="CCgMaterialRenderer.cpp">
       <Filter>Irrlicht\video</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\include\ISceneCollisionManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Irrlicht.rc" />
