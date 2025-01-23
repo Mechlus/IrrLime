@@ -333,48 +333,46 @@ void CParticleSystemSceneNode::render()
 
 	// create particle vertex data
 	s32 idx = 0;
-	if (active) {
-		for (u32 i = 0; i < Particles.size(); ++i)
-		{
-			const SParticle& particle = Particles[i];
+	for (u32 i = 0; i < Particles.size(); ++i)
+	{
+		const SParticle& particle = Particles[i];
 
 #if 0
-			core::vector3df horizontal = camera->getUpVector().crossProduct(view);
-			horizontal.normalize();
-			horizontal *= 0.5f * particle.size.Width;
+		core::vector3df horizontal = camera->getUpVector().crossProduct(view);
+		horizontal.normalize();
+		horizontal *= 0.5f * particle.size.Width;
 
-			core::vector3df vertical = horizontal.crossProduct(view);
-			vertical.normalize();
-			vertical *= 0.5f * particle.size.Height;
+		core::vector3df vertical = horizontal.crossProduct(view);
+		vertical.normalize();
+		vertical *= 0.5f * particle.size.Height;
 
 #else
-			f32 f;
+		f32 f;
 
-			f = 0.5f * particle.size.Width;
-			const core::vector3df horizontal(m[0] * f, m[4] * f, m[8] * f);
+		f = 0.5f * particle.size.Width;
+		const core::vector3df horizontal(m[0] * f, m[4] * f, m[8] * f);
 
-			f = -0.5f * particle.size.Height;
-			const core::vector3df vertical(m[1] * f, m[5] * f, m[9] * f);
+		f = -0.5f * particle.size.Height;
+		const core::vector3df vertical(m[1] * f, m[5] * f, m[9] * f);
 #endif
 
-			Buffer->Vertices[0 + idx].Pos = particle.pos + horizontal + vertical;
-			Buffer->Vertices[0 + idx].Color = particle.color;
-			Buffer->Vertices[0 + idx].Normal = view;
+		Buffer->Vertices[0 + idx].Pos = particle.pos + horizontal + vertical;
+		Buffer->Vertices[0 + idx].Color = particle.color;
+		Buffer->Vertices[0 + idx].Normal = view;
 
-			Buffer->Vertices[1 + idx].Pos = particle.pos + horizontal - vertical;
-			Buffer->Vertices[1 + idx].Color = particle.color;
-			Buffer->Vertices[1 + idx].Normal = view;
+		Buffer->Vertices[1 + idx].Pos = particle.pos + horizontal - vertical;
+		Buffer->Vertices[1 + idx].Color = particle.color;
+		Buffer->Vertices[1 + idx].Normal = view;
 
-			Buffer->Vertices[2 + idx].Pos = particle.pos - horizontal - vertical;
-			Buffer->Vertices[2 + idx].Color = particle.color;
-			Buffer->Vertices[2 + idx].Normal = view;
+		Buffer->Vertices[2 + idx].Pos = particle.pos - horizontal - vertical;
+		Buffer->Vertices[2 + idx].Color = particle.color;
+		Buffer->Vertices[2 + idx].Normal = view;
 
-			Buffer->Vertices[3 + idx].Pos = particle.pos - horizontal + vertical;
-			Buffer->Vertices[3 + idx].Color = particle.color;
-			Buffer->Vertices[3 + idx].Normal = view;
+		Buffer->Vertices[3 + idx].Pos = particle.pos - horizontal + vertical;
+		Buffer->Vertices[3 + idx].Color = particle.color;
+		Buffer->Vertices[3 + idx].Normal = view;
 
-			idx += 4;
-		}
+		idx += 4;
 	}
 
 	// render all
@@ -421,7 +419,7 @@ void CParticleSystemSceneNode::doParticleSystem(u32 time)
 
 	// run emitter
 
-	if (Emitter && IsVisible)
+	if (Emitter && IsVisible && active)
 	{
 		SParticle* array = 0;
 		s32 newParticles = Emitter->emitt(now, timediff, array);
