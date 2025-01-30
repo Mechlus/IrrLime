@@ -943,7 +943,6 @@
     <ClInclude Include="..\..\include\IParticleSystemSceneNode.h" />
     <ClInclude Include="..\..\include\IQ3LevelMesh.h" />
     <ClInclude Include="..\..\include\IQ3Shader.h" />
-    <ClInclude Include="..\..\include\ISceneCollisionManager.h" />
     <ClInclude Include="..\..\include\ISceneManager.h" />
     <ClInclude Include="..\..\include\ISceneLoader.h" />
     <ClInclude Include="..\..\include\ISceneNode.h" />
@@ -1246,6 +1245,7 @@
     <None Include="..\..\readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\include\ISceneCollisionManager.cpp" />
     <ClCompile Include="CCgMaterialRenderer.cpp" />
     <ClCompile Include="CD3D9CgMaterialRenderer.cpp" />
     <ClCompile Include="CDefaultSceneNodeAnimatorFactory.cpp" />

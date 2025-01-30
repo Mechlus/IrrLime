@@ -84,7 +84,6 @@ void CTextSceneNode::setTextColor(video::SColor color)
 	Color = color;
 }
 
-
 //!--------------------------------- CBillboardTextSceneNode ----------------------------------------------
 
 
