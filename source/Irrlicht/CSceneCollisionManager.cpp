@@ -83,7 +83,7 @@ void CSceneCollisionManager::getPickedNodeBB(ISceneNode* root,
 	{
 		ISceneNode* current = *it;
 
-		if (current->isVisible())
+		if (current->isVisible() || current->getDisregardVisiblity())
 		{
 			if((noDebugObjects ? !current->isDebugObject() : true) &&
 				(bits==0 || (bits != 0 && (current->getID() & bits))))
@@ -284,7 +284,7 @@ void CSceneCollisionManager::getPickedNodeFromBBAndSelector(
 		ISceneNode* current = *it;
 		ITriangleSelector * selector = current->getTriangleSelector();
 
-		if (selector && current->isVisible() &&
+		if (selector && (current->isVisible() || current->getDisregardVisiblity()) &&
 			(noDebugObjects ? !current->isDebugObject() : true) &&
 			(bits==0 || (bits != 0 && (current->getID() & bits))))
 		{
