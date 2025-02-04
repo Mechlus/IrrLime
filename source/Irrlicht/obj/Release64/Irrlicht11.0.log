@@ -1,5 +1,6 @@
 ﻿  C3DSMeshFileLoader.cpp
   CAnimatedMeshHalfLife.cpp
+  CAnimatedMeshSceneNode.cpp
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(31,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(32,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(34,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
@@ -12,7 +13,6 @@ D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(85,34): war
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(86,27): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(101,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(102,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-  CAnimatedMeshSceneNode.cpp
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(111,35): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
 D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(116,33): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
   CB3DMeshFileLoader.cpp
@@ -95,8 +95,8 @@ D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\COpenGLDriver.cpp(148,44): warning C4
   Irrlicht.cpp
      Creating library ..\..\lib\Win64-visualstudio\Irrlicht.lib and object ..\..\lib\Win64-visualstudio\Irrlicht.exp
   Generating code
-  590 of 13124 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
-    6 functions were new in current compilation
+  588 of 13122 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
     148 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Irrlicht11.0.vcxproj -> D:\Irrlicht\irrlicht-1.8.5\bin\Win64-VisualStudio\Irrlicht.dll
