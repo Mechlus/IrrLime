@@ -273,19 +273,6 @@ namespace scene
 		}
 
 
-		//! Get disregard visibility
-		virtual bool getDisregardVisiblity()
-		{
-			return disregardVisibility;
-		}
-
-		//! Set whether or not collision should still be used if it is enabled and the object is invisible.
-		virtual void setDisregardVisiblity(bool enable)
-		{
-			disregardVisibility = enable;
-		}
-
-
 		//! Adds a child to this scene node.
 		/** If the scene node already has a parent it is first removed
 		from the other parent.
@@ -849,9 +836,6 @@ namespace scene
 
 		//! ID of the node.
 		s32 ID;
-
-		//! Disregard visibility in collision check
-		bool disregardVisibility;
 
 		//! Automatic culling state
 		u32 AutomaticCullingState;
