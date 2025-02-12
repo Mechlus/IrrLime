@@ -190,6 +190,8 @@ namespace scene
 				IsOrthogonal = in->getAttributeAsBool("IsOrthogonal");
 		}
 
+		bool isTrulyOrthogonal;
+
 	protected:
 
 		void cloneMembers(ICameraSceneNode* toCopyFrom)

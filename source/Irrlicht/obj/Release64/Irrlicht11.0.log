@@ -1,103 +1,31 @@
-﻿  C3DSMeshFileLoader.cpp
-  CAnimatedMeshHalfLife.cpp
-  CAnimatedMeshSceneNode.cpp
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(31,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(32,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(34,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(35,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(37,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(38,11): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(83,17): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(84,16): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(85,34): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(86,27): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(101,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshHalfLife.cpp(102,14): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(111,35): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CAnimatedMeshSceneNode.cpp(116,33): warning C4244: '=': conversion from 'double' to 'irr::f32', possible loss of data
-  CB3DMeshFileLoader.cpp
-  CBSPMeshFileLoader.cpp
-  CBillboardSceneNode.cpp
-  CBoneSceneNode.cpp
-  CCSMLoader.cpp
+﻿  CBillboardSceneNode.cpp
   CCameraSceneNode.cpp
   CColladaFileLoader.cpp
   CColladaMeshWriter.cpp
-  CCubeSceneNode.cpp
-  CD3D9Driver.cpp
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CD3D9Driver.cpp(1532,40): warning C4838: conversion from 'irr::u32' to 'irr::u16' requires a narrowing conversion
-  CD3D9Texture.cpp
-  CDMFLoader.cpp
   CDefaultSceneNodeAnimatorFactory.cpp
   CDefaultSceneNodeFactory.cpp
-  CDummyTransformationSceneNode.cpp
-  CEmptySceneNode.cpp
-  CIrrDeviceStub.cpp
-  Compiling...
-  CIrrMeshFileLoader.cpp
-  CLMTSMeshFileLoader.cpp
-  CLWOMeshFileLoader.cpp
   CLightSceneNode.cpp
-  CMD3MeshFileLoader.cpp
-  CMS3DMeshFileLoader.cpp
-  CMY3DMeshFileLoader.cpp
   CMeshSceneNode.cpp
-  CNullDriver.cpp
-  COBJMeshFileLoader.cpp
-  COBJMeshWriter.cpp
-  COCTLoader.cpp
   COctreeSceneNode.cpp
-  COctreeTriangleSelector.cpp
-  COgreMeshFileLoader.cpp
-  COpenGLDriver.cpp
-D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\COpenGLDriver.cpp(148,44): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
-  COpenGLNormalMapRenderer.cpp
-  COpenGLParallaxMapRenderer.cpp
-  COpenGLSLMaterialRenderer.cpp
-  COpenGLShaderMaterialRenderer.cpp
-  Compiling...
-  COpenGLTexture.cpp
-  CPLYMeshFileLoader.cpp
-  CParticleAnimatedMeshSceneNodeEmitter.cpp
   CParticleSystemSceneNode.cpp
-  CQ3LevelMesh.cpp
   CQuake3ShaderSceneNode.cpp
-  CSTLMeshWriter.cpp
   CSceneCollisionManager.cpp
-  CSceneLoaderIrr.cpp
   CSceneManager.cpp
   CSceneNodeAnimatorCameraFPS.cpp
   CSceneNodeAnimatorCameraMaya.cpp
   CSceneNodeAnimatorCollisionResponse.cpp
-  CSceneNodeAnimatorDelete.cpp
-  CSceneNodeAnimatorFlyCircle.cpp
-  CSceneNodeAnimatorFlyStraight.cpp
-  CSceneNodeAnimatorFollowSpline.cpp
-  CSceneNodeAnimatorRotation.cpp
-  CSceneNodeAnimatorTexture.cpp
   CShadowVolumeSceneNode.cpp
-  Compiling...
-  CSkinnedMesh.cpp
   CSkyBoxSceneNode.cpp
   CSkyDomeSceneNode.cpp
-  CSoftwareDriver.cpp
-  CSoftwareDriver2.cpp
-  CSphereSceneNode.cpp
   CTerrainSceneNode.cpp
-  CTerrainTriangleSelector.cpp
+  Compiling...
   CTextSceneNode.cpp
-  CTriangleBBSelector.cpp
-  CTriangleSelector.cpp
-  CVolumeLightSceneNode.cpp
-  CWaterSurfaceSceneNode.cpp
-  CXMeshFileLoader.cpp
-  IBurningShader.cpp
   Irrlicht.cpp
      Creating library ..\..\lib\Win64-visualstudio\Irrlicht.lib and object ..\..\lib\Win64-visualstudio\Irrlicht.exp
   Generating code
-  588 of 13122 functions ( 4.5%) were compiled, the rest were copied from previous compilation.
-    4 functions were new in current compilation
-    148 functions had inline decision re-evaluated but remain unchanged
+  10 of 13122 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    96 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Irrlicht11.0.vcxproj -> D:\Irrlicht\irrlicht-1.8.5\bin\Win64-VisualStudio\Irrlicht.dll
   'pwsh.exe' is not recognized as an internal or external command,
