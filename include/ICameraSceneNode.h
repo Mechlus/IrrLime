@@ -190,7 +190,7 @@ namespace scene
 				IsOrthogonal = in->getAttributeAsBool("IsOrthogonal");
 		}
 
-		bool isTrulyOrthogonal;
+		bool isTrulyOrthogonal = false;
 
 	protected:
 
