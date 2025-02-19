@@ -41,41 +41,44 @@ CParticleCylinderEmitter::CParticleCylinderEmitter(
 s32 CParticleCylinderEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& outArray)
 {
 	Time += timeSinceLastCall;
+	Particles.set_used(0);
 
-	const u32 pps = (MaxParticlesPerSecond - MinParticlesPerSecond);
-	const f32 perSecond = pps ? ((f32)MinParticlesPerSecond + os::Randomizer::frand() * pps) : MinParticlesPerSecond;
-	const f32 everyWhatMillisecond = 1000.0f / perSecond;
+	u32 particlesToEmit = 0;
 
-	if(Time > everyWhatMillisecond)
-	{
-		Particles.set_used(0);
-		u32 amount = (u32)((Time / everyWhatMillisecond) + 0.5f);
-		Time = 0;
+	if (Emitted > 0) {
+		particlesToEmit = Emitted;
+		Emitted = 0;
+	}
+	else {
+		const u32 pps = (MaxParticlesPerSecond - MinParticlesPerSecond);
+		const f32 perSecond = pps ? ((f32)MinParticlesPerSecond + os::Randomizer::frand() * pps) : MinParticlesPerSecond;
+		const f32 everyWhatMillisecond = 1000.0f / perSecond;
+
+		if (Time > everyWhatMillisecond) {
+			particlesToEmit = (u32)((Time / everyWhatMillisecond) + 0.5f);
+			Time = 0;
+
+			if (particlesToEmit > MaxParticlesPerSecond * 2)
+				particlesToEmit = MaxParticlesPerSecond * 2;
+		}
+	}
+
+	if (particlesToEmit > 0) {
 		SParticle p;
 
-		if(amount > MaxParticlesPerSecond*2)
-			amount = MaxParticlesPerSecond * 2;
-
-		for(u32 i=0; i<amount; ++i)
-		{
-			// Random distance from center if outline only is not true
+		for (u32 i = 0; i < particlesToEmit; ++i) {
 			const f32 distance = (!OutlineOnly) ? (os::Randomizer::frand() * Radius) : Radius;
 
-			// Random direction from center
 			p.pos.set(Center.X + distance, Center.Y, Center.Z + distance);
 			p.pos.rotateXZBy(os::Randomizer::frand() * 360, Center);
 
-			// Random length
 			const f32 length = os::Randomizer::frand() * Length;
-
-			// Random point along the cylinders length
 			p.pos += Normal * length;
 
 			p.startTime = now;
 			p.vector = Direction;
 
-			if( MaxAngleDegrees )
-			{
+			if (MaxAngleDegrees) {
 				core::vector3df tgt = Direction;
 				tgt.rotateXYBy(os::Randomizer::frand() * MaxAngleDegrees);
 				tgt.rotateYZBy(os::Randomizer::frand() * MaxAngleDegrees);
@@ -87,29 +90,24 @@ s32 CParticleCylinderEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& 
 			if (MaxLifeTime != MinLifeTime)
 				p.endTime += os::Randomizer::rand() % (MaxLifeTime - MinLifeTime);
 
-			if (MinStartColor==MaxStartColor)
-				p.color=MinStartColor;
-			else
-				p.color = MinStartColor.getInterpolated(MaxStartColor, os::Randomizer::frand());
-
+			p.color = (MinStartColor == MaxStartColor) ? MinStartColor : MinStartColor.getInterpolated(MaxStartColor, os::Randomizer::frand());
 			p.startColor = p.color;
 			p.startVector = p.vector;
-
-			if (MinStartSize==MaxStartSize)
-				p.startSize = MinStartSize;
-			else
-				p.startSize = MinStartSize.getInterpolated(MaxStartSize, os::Randomizer::frand());
+			p.startSize = (MinStartSize == MaxStartSize) ? MinStartSize : MinStartSize.getInterpolated(MaxStartSize, os::Randomizer::frand());
 			p.size = p.startSize;
 
 			Particles.push_back(p);
 		}
 
 		outArray = Particles.pointer();
-
 		return Particles.size();
 	}
 
 	return 0;
+}
+
+void CParticleCylinderEmitter::spark(u32 now, u32 particleCount)
+{
 }
 
 //! Writes attributes of the object.

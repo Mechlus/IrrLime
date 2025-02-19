@@ -83,6 +83,14 @@ s32 CParticlePointEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& out
 	return 0;
 }
 
+void CParticlePointEmitter::spark(u32 now, u32 particleCount)
+{
+	SParticle* outArray;
+
+	for (int i = 1; i <= particleCount; i++) {
+		emitt(now, MaxParticlesPerSecond, outArray);
+	}
+}
 
 //! Writes attributes of the object.
 void CParticlePointEmitter::serializeAttributes(io::IAttributes* out, io::SAttributeReadWriteOptions* options) const

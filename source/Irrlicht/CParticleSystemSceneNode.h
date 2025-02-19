@@ -39,6 +39,9 @@ public:
 	//! Sets the particle emitter, which creates the particles.
 	virtual void setEmitter(IParticleEmitter* emitter);
 
+	//! Emits once (spark)
+	virtual void spark(u32 now, u32 particleCount);
+
 	//! Adds new particle affector to the particle system.
 	virtual void addAffector(IParticleAffector* affector);
 
