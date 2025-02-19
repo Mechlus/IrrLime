@@ -83,6 +83,11 @@ void CParticleSystemSceneNode::setEmitter(IParticleEmitter* emitter)
 		Emitter->grab();
 }
 
+//! Emits once (spark)
+void CParticleSystemSceneNode::spark(u32 particleCount) {
+	if (!Emitter) return;
+	Emitter->spark(particleCount);
+}
 
 //! Adds new particle effector to the particle system.
 void CParticleSystemSceneNode::addAffector(IParticleAffector* affector)

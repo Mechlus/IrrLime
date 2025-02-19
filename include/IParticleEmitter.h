@@ -54,6 +54,9 @@ public:
 	\return Amount of new particles in the array. Can be 0. */
 	virtual s32 emitt(u32 now, u32 timeSinceLastCall, SParticle*& outArray) = 0;
 
+	//! Emits once (spark)
+	virtual void spark(u32 particleCount) = 0;
+
 	//! Set direction the emitter emits particles
 	virtual void setDirection( const core::vector3df& newDirection ) = 0;
 

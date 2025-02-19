@@ -107,6 +107,10 @@ s32 CParticleRingEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& outA
 	return 0;
 }
 
+void CParticleRingEmitter::spark(u32 particleCount)
+{
+}
+
 //! Writes attributes of the object.
 void CParticleRingEmitter::serializeAttributes(io::IAttributes* out, io::SAttributeReadWriteOptions* options) const
 {
