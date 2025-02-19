@@ -1,3 +1,2 @@
 ﻿  CParticleSystemSceneNode.cpp
-C:\LimeDir\irrlicht-1.8.5\source\Irrlicht\CParticleSystemSceneNode.cpp(408,20): warning C4018: '<': signed/unsigned mismatch
   Irrlicht11.0.vcxproj -> C:\LimeDir\irrlicht-1.8.5\bin\Win64-VisualStudio\Irrlicht.dll

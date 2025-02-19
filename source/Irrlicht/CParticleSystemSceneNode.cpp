@@ -404,8 +404,31 @@ const core::aabbox3d<f32>& CParticleSystemSceneNode::getBoundingBox() const
 }
 
 //! Emits once (spark)
-void CParticleSystemSceneNode::spark(u32 now, u32 particleCount) {
-	
+void CParticleSystemSceneNode::spark(u32 now, u32 particleCount)
+{
+	if (!Emitter) return;
+
+	SParticle* array = 0;
+	for (size_t k = 0; k < particleCount; ++k) {
+		s32 newParticles = Emitter->emitt(now, 10000, array);
+
+		if (newParticles && array)
+		{
+			s32 j = Particles.size();
+			if (newParticles > 16250 - j)
+				newParticles = 16250 - j;
+			Particles.set_used(j + newParticles);
+			for (s32 i = j; i < j + newParticles; ++i)
+			{
+				Particles[i] = array[i - j];
+				AbsoluteTransformation.rotateVect(Particles[i].startVector);
+				if (ParticlesAreGlobal)
+					AbsoluteTransformation.transformVect(Particles[i].pos);
+			}
+		}
+	}
+
+	doParticleSystem(now);
 }
 
 void CParticleSystemSceneNode::doParticleSystem(u32 time)
