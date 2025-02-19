@@ -107,7 +107,7 @@ s32 CParticleRingEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& outA
 	return 0;
 }
 
-void CParticleRingEmitter::spark(u32 particleCount)
+void CParticleRingEmitter::spark(u32 now, u32 particleCount)
 {
 }
 

@@ -39,7 +39,7 @@ public:
 	virtual s32 emitt(u32 now, u32 timeSinceLastCall, SParticle*& outArray);
 
 	//! Emits once (spark)
-	virtual void spark(u32 particleCount);
+	virtual void spark(u32 now, u32 particleCount);
 
 	//! Set the center of the radius for the cylinder, at one end of the cylinder
 	virtual void setCenter( const core::vector3df& center ) { Center = center; }

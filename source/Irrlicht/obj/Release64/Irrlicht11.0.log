@@ -1,14 +1,20 @@
-﻿  CParticleAnimatedMeshSceneNodeEmitter.cpp
+﻿  CDefaultSceneNodeFactory.cpp
+  CParticleAnimatedMeshSceneNodeEmitter.cpp
   CParticleBoxEmitter.cpp
+  CParticleCylinderEmitter.cpp
   CParticleMeshEmitter.cpp
   CParticlePointEmitter.cpp
   CParticleRingEmitter.cpp
+D:\Irrlicht\irrlicht-1.8.5\source\Irrlicht\CParticlePointEmitter.cpp(90,20): warning C4018: '<=': signed/unsigned mismatch
+  CParticleSphereEmitter.cpp
   CParticleSystemSceneNode.cpp
+  CSceneManager.cpp
+  Irrlicht.cpp
      Creating library ..\..\lib\Win64-visualstudio\Irrlicht.lib and object ..\..\lib\Win64-visualstudio\Irrlicht.exp
   Generating code
-  10 of 13130 functions (<0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    91 functions had inline decision re-evaluated but remain unchanged
+  17 of 13130 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    100 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Irrlicht11.0.vcxproj -> D:\Irrlicht\irrlicht-1.8.5\bin\Win64-VisualStudio\Irrlicht.dll
   'pwsh.exe' is not recognized as an internal or external command,

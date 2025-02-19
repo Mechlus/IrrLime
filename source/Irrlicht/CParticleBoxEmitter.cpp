@@ -101,7 +101,7 @@ s32 CParticleBoxEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& outAr
 	return 0;
 }
 
-void CParticleBoxEmitter::spark(u32 particleCount)
+void CParticleBoxEmitter::spark(u32 now, u32 particleCount)
 {
 }
 

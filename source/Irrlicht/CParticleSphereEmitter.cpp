@@ -113,10 +113,8 @@ s32 CParticleSphereEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& ou
 	return 0;
 }
 
-void CParticleSphereEmitter::spark(u32 particleCount)
+void CParticleSphereEmitter::spark(u32 now, u32 particleCount)
 {
-	Emitted = particleCount;
-	Time = 0;
 }
 
 //! Writes attributes of the object.

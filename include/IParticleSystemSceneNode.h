@@ -59,7 +59,7 @@ public:
 		const core::dimension2d<f32> &size = core::dimension2d<f32>(5.0f, 5.0f)) = 0;
 
 	//! Emits once (spark)
-	virtual void spark(u32 particleCount) = 0;
+	virtual void spark(u32 now, u32 particleCount) = 0;
 
 	//! Sets if the particles should be global.
 	/** If they are, the particles are affected by the movement of the

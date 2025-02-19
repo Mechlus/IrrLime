@@ -162,7 +162,7 @@ s32 CParticleMeshEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& outA
 	return 0;
 }
 
-void CParticleMeshEmitter::spark(u32 particleCount)
+void CParticleMeshEmitter::spark(u32 now, u32 particleCount)
 {
 }
 

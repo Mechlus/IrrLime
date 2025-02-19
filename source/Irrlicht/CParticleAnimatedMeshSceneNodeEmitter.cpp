@@ -169,7 +169,7 @@ s32 CParticleAnimatedMeshSceneNodeEmitter::emitt(u32 now, u32 timeSinceLastCall,
 	return 0;
 }
 
-void CParticleAnimatedMeshSceneNodeEmitter::spark(u32 particleCount)
+void CParticleAnimatedMeshSceneNodeEmitter::spark(u32 now, u32 particleCount)
 {
 }
 

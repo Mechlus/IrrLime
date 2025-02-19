@@ -55,7 +55,7 @@ public:
 	virtual s32 emitt(u32 now, u32 timeSinceLastCall, SParticle*& outArray) = 0;
 
 	//! Emits once (spark)
-	virtual void spark(u32 particleCount) = 0;
+	virtual void spark(u32 now, u32 particleCount) = 0; // Something with outArray?
 
 	//! Set direction the emitter emits particles
 	virtual void setDirection( const core::vector3df& newDirection ) = 0;
