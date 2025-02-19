@@ -169,10 +169,6 @@ s32 CParticleAnimatedMeshSceneNodeEmitter::emitt(u32 now, u32 timeSinceLastCall,
 	return 0;
 }
 
-void CParticleAnimatedMeshSceneNodeEmitter::spark(u32 now, u32 particleCount)
-{
-}
-
 //! Set Mesh to emit particles from
 void CParticleAnimatedMeshSceneNodeEmitter::setAnimatedMeshSceneNode( IAnimatedMeshSceneNode* node )
 {

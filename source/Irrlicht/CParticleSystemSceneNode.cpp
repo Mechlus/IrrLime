@@ -83,12 +83,6 @@ void CParticleSystemSceneNode::setEmitter(IParticleEmitter* emitter)
 		Emitter->grab();
 }
 
-//! Emits once (spark)
-void CParticleSystemSceneNode::spark(u32 now, u32 particleCount) {
-	if (!Emitter) return;
-	Emitter->spark(now, particleCount);
-}
-
 //! Adds new particle effector to the particle system.
 void CParticleSystemSceneNode::addAffector(IParticleAffector* affector)
 {
@@ -409,6 +403,10 @@ const core::aabbox3d<f32>& CParticleSystemSceneNode::getBoundingBox() const
 	return Buffer->getBoundingBox();
 }
 
+//! Emits once (spark)
+void CParticleSystemSceneNode::spark(u32 now, u32 particleCount) {
+	
+}
 
 void CParticleSystemSceneNode::doParticleSystem(u32 time)
 {

@@ -113,10 +113,6 @@ s32 CParticleSphereEmitter::emitt(u32 now, u32 timeSinceLastCall, SParticle*& ou
 	return 0;
 }
 
-void CParticleSphereEmitter::spark(u32 now, u32 particleCount)
-{
-}
-
 //! Writes attributes of the object.
 void CParticleSphereEmitter::serializeAttributes(io::IAttributes* out, io::SAttributeReadWriteOptions* options) const
 {
